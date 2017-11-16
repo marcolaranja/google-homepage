@@ -1,0 +1,79 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+
+input {
+  color: #fff;
+  font-weight: bold;
+}
+
+input[type=text] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+}
+
+footer ul {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #eee;
+    color: gray;
+    text-align: center;
+}
+
+#pesquisa {
+    background-color: white;
+    color: black;
+    text-align: left;
+    padding: 10px 10px;
+}
+
+input {
+  background: #ccc;
+  color: #444;
+  background-repeat: no-repeat;
+  padding: 40px;
+  }
+
+form[type='text'] {
+      background-image: image(./lupa.png);
+      background-position: 7px 7px;
+      background-repeat: no-repeat;
+  }
+
+.footer span {
+    font-size: 15px;
+    font-family: arial, sans-serif;
+    padding: 12px 30px;
+    border-top: 0.5px solid #e6e6e6;
+    display: block;
+    border-bottom: 0.5px solid #d9d9d9;
+    color: #595959;
+  }
